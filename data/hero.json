@@ -1,0 +1,58 @@
+{
+  "_instructions": "Hero section content.",
+  "greeting": "Hello, I'm",
+  "name": "Jyothi Sree",
+  "title": "Senior Data Engineer",
+  "summary": "Senior Data Engineer with 2+ years of experience specializing in Python, SQL, Bash.",
+  "avatarUrl": "/avatar.png",
+  "tagline": "Senior Data Engineer",
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "4+",
+      "icon": "fas fa-briefcase"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "0+",
+      "icon": "fas fa-project-diagram"
+    },
+    {
+      "label": "Certifications",
+      "value": "2+",
+      "icon": "fas fa-certificate"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary",
+        "external": false
+      },
+      {
+        "text": "View Portfolio",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jyothisree123/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:Jyothisree.work@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "scrollIndicator": {
+    "text": "Scroll to discover more",
+    "icon": "fas fa-chevron-down"
+  }
+}

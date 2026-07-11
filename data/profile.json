@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Jyothi Sree",
+    "title": "Senior Data Engineer",
+    "bio": "Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks, with a track record of cutting pipeline runtime and cost while hardening data quality for regulated environments. Skilled in data modeling, warehousing, Lakehouse architecture, CDC, orchestration, and governance, delivering analytics-ready datasets for enterprise production environments in finance and healthcare."
+  },
+  "contact": {
+    "email": "Jyothisree.work@gmail.com",
+    "phone": "+14087620694",
+    "githubUsername": "akasapu01",
+    "linkedin": "https://www.linkedin.com/in/jyothisree123/"
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Jyothi Sree - Portfolio",
+    "description": "Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks, with a track record of cutting pipeline runtime and cost while hardening data quality for regulated environments. Skilled in data modeling, warehousing, Lakehouse architecture, CDC, orchestration, and governance, delivering analytics-ready datasets for enterprise production environments in finance and healthcare."
+  }
+}

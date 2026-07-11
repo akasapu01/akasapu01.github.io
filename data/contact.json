@@ -1,0 +1,19 @@
+{
+  "sectionTitle": "Let's Create Something Amazing",
+  "subtitle": "Have a project in mind? Let's bring it to life together.",
+  "email": "Jyothisree.work@gmail.com",
+  "location": "San Francisco, CA, USA",
+  "availability": "Open to opportunities",
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jyothisree123/",
+      "icon": "fab fa-linkedin-in"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:Jyothisree.work@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Master's",
+      "school": "Florida Atlantic University",
+      "institution": "Florida Atlantic University",
+      "period": "",
+      "details": "",
+      "description": ""
+    },
+    {
+      "degree": "Bachelor's",
+      "school": "St. Francis College for women",
+      "institution": "St. Francis College for women",
+      "period": "",
+      "details": "",
+      "description": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect Professional",
+      "issuer": "AWS"
+    },
+    {
+      "name": "Databricks Certified Data Engineer Professional",
+      "issuer": "Databricks"
+    }
+  ]
+}

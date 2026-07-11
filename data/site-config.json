@@ -1,0 +1,18 @@
+{
+  "_instructions": "Site-wide configuration and meta tags. Update these values for SEO and branding.",
+  "meta": {
+    "title": "Jyothi Sree | Senior Data Engineer",
+    "description": "Jyothi Sree - Senior Data Engineer | Portfolio",
+    "author": "Jyothi Sree",
+    "keywords": "Senior Data Engineer, Portfolio, Jyothi Sree"
+  },
+  "branding": {
+    "name": "Jyothi Sree",
+    "tagline": "Senior Data Engineer"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "navbarScrollEffect": true
+  }
+}

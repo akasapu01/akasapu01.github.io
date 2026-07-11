@@ -1,0 +1,378 @@
+{
+  "_instructions": "Add your professional projects.",
+  "sectionTitle": "Portfolio",
+  "subtitle": "Featured professional projects",
+  "projects": [
+    {
+      "title": "weather-data-pipeline-great-expectations",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
+      "demo": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
+      "links": {
+        "github": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
+        "demo": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
+        "live": "https://github.com/akasapu01/weather-data-pipeline-great-expectations"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "nyc-taxi-data-lake-gcp",
+      "description": "Modern web application demonstrating clean code principles",
+      "longDescription": "Modern web application demonstrating clean code principles",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HTML",
+        "HCL",
+        "Shell"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
+      "demo": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
+      "links": {
+        "github": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
+        "demo": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
+        "live": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "spark-kafka-cassandra-pipeline",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
+      "demo": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
+      "links": {
+        "github": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
+        "demo": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
+        "live": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "ecommerce-lakehouse-medallion",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "HTML",
+        "Python"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
+      "demo": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
+      "links": {
+        "github": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
+        "demo": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
+        "live": "https://github.com/akasapu01/ecommerce-lakehouse-medallion"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "elt-pipeline-dbt-snowflake-airflow",
+      "description": "Hands-on learning experience with modern frameworks",
+      "longDescription": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "HTML",
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
+      "demo": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
+      "links": {
+        "github": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
+        "demo": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
+        "live": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "data-pipeline-with-dbt-using-airflow-on-gcp",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
+      "demo": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
+      "links": {
+        "github": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
+        "demo": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
+        "live": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "spark-and-kafka_iot-data-processing-and-analytics",
+      "description": "Personal development project using industry best practices",
+      "longDescription": "Personal development project using industry best practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
+      "demo": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
+      "links": {
+        "github": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
+        "demo": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
+        "live": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "goodreads_etl_pipeline",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/goodreads_etl_pipeline",
+      "demo": "https://github.com/akasapu01/goodreads_etl_pipeline",
+      "links": {
+        "github": "https://github.com/akasapu01/goodreads_etl_pipeline",
+        "demo": "https://github.com/akasapu01/goodreads_etl_pipeline",
+        "live": "https://github.com/akasapu01/goodreads_etl_pipeline"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "MyCodeBuddy",
+      "description": "AI multi agent coding assistant that converts natural language prompts into full software projects using LangGraph, FastAPI, and Groq LLM.",
+      "longDescription": "AI multi agent coding assistant that converts natural language prompts into full software projects using LangGraph, FastAPI, and Groq LLM.",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/MyCodeBuddy",
+      "demo": "https://github.com/akasapu01/MyCodeBuddy",
+      "links": {
+        "github": "https://github.com/akasapu01/MyCodeBuddy",
+        "demo": "https://github.com/akasapu01/MyCodeBuddy",
+        "live": "https://github.com/akasapu01/MyCodeBuddy"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "end-to-end-pipeline-snowflake-dbt-tableau",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
+      "demo": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
+      "links": {
+        "github": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
+        "demo": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
+        "live": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "realtime-warehousing-with-snowflake",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
+      "demo": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
+      "links": {
+        "github": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
+        "demo": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
+        "live": "https://github.com/akasapu01/realtime-warehousing-with-snowflake"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "longDescription": "Generated GitHub contribution history",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/contribution-history",
+      "demo": "https://github.com/akasapu01/contribution-history",
+      "links": {
+        "github": "https://github.com/akasapu01/contribution-history",
+        "demo": "https://github.com/akasapu01/contribution-history",
+        "live": "https://github.com/akasapu01/contribution-history"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "LeetCode",
+      "description": "GitHub repository: LeetCode",
+      "longDescription": "GitHub repository: LeetCode",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/akasapu01/LeetCode",
+      "demo": "https://github.com/akasapu01/LeetCode",
+      "links": {
+        "github": "https://github.com/akasapu01/LeetCode",
+        "demo": "https://github.com/akasapu01/LeetCode",
+        "live": "https://github.com/akasapu01/LeetCode"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    }
+  ]
+}

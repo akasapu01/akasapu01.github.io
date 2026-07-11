@@ -1,0 +1,103 @@
+{
+  "_instructions": "Organize your skills into categories. Each category has a name, icon, and list of skills.",
+  "_iconHelp": "Use Font Awesome icons (https://fontawesome.com/icons).",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "Python",
+        "SQL",
+        "Bash",
+        "PowerShell"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "DBT",
+        "Spark",
+        "Hive",
+        "GCP Dataflow",
+        "LangChain",
+        "Hugging Face",
+        "Transformer Embeddings"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "Redshift",
+        "Snowflake",
+        "Azure SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "AWS Glue",
+        "Azure Data Factory",
+        "Apache Kafka",
+        "Terraform",
+        "Ansible",
+        "ARM Templates",
+        "Bicep",
+        "CloudFormation",
+        "Jenkins",
+        "Azure DevOps",
+        "AWS",
+        "EC2",
+        "Lambda",
+        "S3",
+        "Kinesis",
+        "IAM",
+        "EKS",
+        "Azure",
+        "ADF",
+        "Synapse",
+        "Entra ID",
+        "Key Vault",
+        "GCP",
+        "BigQuery",
+        "GKE",
+        "Cloud Storage",
+        "Microsoft Fabric",
+        "New Relic",
+        "AWS CloudWatch",
+        "Azure Monitor",
+        "ServiceNow",
+        "GitHub Actions",
+        "Git",
+        "GitLab",
+        "CodePipeline",
+        "Power BI",
+        "Tableau",
+        "Looker",
+        "AWS QuickSight"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "Data Modeling",
+        "Warehousing",
+        "Lakehouse architecture",
+        "CDC",
+        "Orchestration",
+        "Governance",
+        "RAG",
+        "Prompt Engineering",
+        "Vector Databases",
+        "NIST 800-53",
+        "CIS Benchmarks",
+        "PCI-DSS",
+        "RBAC",
+        "Audit Logging",
+        "RCA",
+        "SLA Management"
+      ]
+    }
+  ]
+}
