@@ -5,7 +5,8 @@
   "title": "Senior Data Engineer",
   "summary": "Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks.",
   "description": "I design reliable data platforms for regulated finance and healthcare environments, with hands-on ownership across Python, SQL, PySpark, Airflow, dbt, Terraform, CI/CD, and cloud-native analytics architecture.",
-  "avatarUrl": "/avatar.png",
+  "avatarUrl": "assets/img/profile-photo.jpg",
+  "avatarAlt": "Professional portrait of Jyothi Sree",
   "tagline": "Senior Data Engineer",
   "stats": [
     {

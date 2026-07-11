@@ -1,9 +1,22 @@
 {
-  "name": "premium-dark-portfolio",
+  "name": "jyothi-sree-portfolio",
   "version": "1.0.0",
-  "description": "Premium portfolio template with navy, cyan and gold theme",
+  "description": "Static portfolio site for Jyothi Sree, Senior Data Engineer.",
   "main": "index.html",
-  "keywords": ["portfolio", "template", "dark-theme", "premium", "creative-developer"],
-  "author": "F1jobs.io",
+  "keywords": [
+    "Jyothi Sree",
+    "portfolio",
+    "senior data engineer",
+    "data engineering",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Snowflake",
+    "Databricks",
+    "Airflow",
+    "dbt",
+    "PySpark"
+  ],
+  "author": "Jyothi Sree",
   "license": "MIT"
 }

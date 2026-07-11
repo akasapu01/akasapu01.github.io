@@ -7,10 +7,20 @@
       "title": "Weather Data Pipeline with Great Expectations",
       "description": "Dockerized weather ingestion pipeline with Great Expectations checks before curated daily loads.",
       "longDescription": "Built a reproducible weather ingestion pipeline that validates API payloads with Great Expectations before loading curated daily partitions. The repository emphasizes local reproducibility, validation checkpoints, failure handling, and clear pipeline documentation.",
+      "highlights": [
+        "Validates inbound weather API payloads before load using Great Expectations checkpoints.",
+        "Keeps ingestion, validation, and curated partition outputs reproducible through Docker.",
+        "Documents failure handling and local run steps for repeatable pipeline review."
+      ],
       "category": "Data Quality & Pipelines",
-      "technologies": ["Python", "Docker", "Great Expectations", "ETL"],
+      "technologies": [
+        "Python",
+        "Docker",
+        "Great Expectations",
+        "ETL"
+      ],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1558600053-2efe29d4c053?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/weather-data-pipeline.jpg",
       "featured": true,
       "status": "Completed",
       "role": "Lead Developer",
@@ -23,10 +33,21 @@
       "title": "NYC Taxi Data Lake on GCP",
       "description": "GCP data lake project for NYC taxi analytics with infrastructure, ingestion, and warehouse-ready modeling.",
       "longDescription": "Designed a cloud data lake pattern for NYC taxi data using GCP services, Terraform-based infrastructure, Python ingestion, and SQL-oriented analytics outputs. The project demonstrates how raw public datasets can be organized into maintainable cloud storage and query layers.",
+      "highlights": [
+        "Defines cloud data lake infrastructure with Terraform instead of manual console setup.",
+        "Separates raw public taxi data from query-ready analytical layers.",
+        "Pairs Python ingestion with BigQuery-oriented modeling for reproducible analytics."
+      ],
       "category": "Cloud Data Lake",
-      "technologies": ["GCP", "BigQuery", "Terraform", "Python", "Cloud Storage"],
+      "technologies": [
+        "GCP",
+        "BigQuery",
+        "Terraform",
+        "Python",
+        "Cloud Storage"
+      ],
       "icon": "fas fa-cloud",
-      "image": "https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/nyc-taxi-data-lake.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -39,10 +60,21 @@
       "title": "Spark Kafka Cassandra Pipeline",
       "description": "Streaming data pipeline connecting Kafka, Spark, and Cassandra for event processing and analytical storage.",
       "longDescription": "Implemented a streaming architecture that moves events through Kafka, processes them with Spark, and persists analytical outputs in Cassandra. The repository highlights scalable stream processing patterns, containerized services, and event-driven data modeling.",
+      "highlights": [
+        "Models the event flow from Kafka topics through Spark processing to Cassandra storage.",
+        "Uses containerized services to make the streaming stack easier to run and inspect.",
+        "Demonstrates practical choices for partitioned, event-driven analytical writes."
+      ],
       "category": "Streaming Data Engineering",
-      "technologies": ["Spark", "Kafka", "Cassandra", "Python", "Docker"],
+      "technologies": [
+        "Spark",
+        "Kafka",
+        "Cassandra",
+        "Python",
+        "Docker"
+      ],
       "icon": "fas fa-stream",
-      "image": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/spark-kafka-cassandra.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -55,10 +87,21 @@
       "title": "Ecommerce Lakehouse Medallion",
       "description": "Ecommerce Lakehouse project organized around bronze, silver, and gold analytics layers.",
       "longDescription": "Modeled an ecommerce Lakehouse using medallion architecture to separate raw ingestion, cleaned entities, and analytics-ready outputs. The project focuses on repeatable transformations, business-friendly models, and a clear path from raw events to reporting datasets.",
+      "highlights": [
+        "Organizes ecommerce data into bronze, silver, and gold layers for clear lineage.",
+        "Turns raw events into cleaned entities before exposing analytics-ready models.",
+        "Shows a maintainable Lakehouse pattern for reporting and business metric use cases."
+      ],
       "category": "Lakehouse Architecture",
-      "technologies": ["Python", "SQL", "Lakehouse", "Medallion Architecture", "Analytics"],
+      "technologies": [
+        "Python",
+        "SQL",
+        "Lakehouse",
+        "Medallion Architecture",
+        "Analytics"
+      ],
       "icon": "fas fa-layer-group",
-      "image": "https://images.unsplash.com/photo-1449247666642-264389f5f5b1?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/ecommerce-lakehouse.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -71,10 +114,21 @@
       "title": "ELT Pipeline with dbt, Snowflake, and Airflow",
       "description": "Warehouse ELT workflow using Airflow orchestration, dbt transformations, and Snowflake modeling.",
       "longDescription": "Built an ELT workflow that orchestrates ingestion with Airflow, transforms warehouse models with dbt, and targets Snowflake analytics tables. The repository demonstrates modular transformation design, dependency-aware scheduling, and reproducible local development patterns.",
+      "highlights": [
+        "Coordinates ELT dependencies with Airflow while keeping SQL transformations in dbt.",
+        "Targets Snowflake warehouse tables with modular, reviewable transformation models.",
+        "Includes a local development workflow for testing orchestration and model changes."
+      ],
       "category": "Analytics Engineering",
-      "technologies": ["Airflow", "dbt", "Snowflake", "Python", "Docker"],
+      "technologies": [
+        "Airflow",
+        "dbt",
+        "Snowflake",
+        "Python",
+        "Docker"
+      ],
       "icon": "fas fa-database",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/snowflake-dbt-airflow.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -87,10 +141,21 @@
       "title": "Data Pipeline with dbt and Airflow on GCP",
       "description": "GCP pipeline combining Airflow orchestration, dbt transformations, and Python ingestion patterns.",
       "longDescription": "Created a GCP-oriented data pipeline that combines Airflow scheduling, dbt transformation structure, Python jobs, and containerized local workflows. The project demonstrates how cloud pipelines can be kept reproducible while separating orchestration from transformation logic.",
+      "highlights": [
+        "Separates Python ingestion jobs from dbt transformation logic.",
+        "Uses Airflow DAG structure to make scheduling and dependencies explicit.",
+        "Keeps the GCP-oriented workflow reproducible through containerized local setup."
+      ],
       "category": "Cloud Orchestration",
-      "technologies": ["GCP", "Airflow", "dbt", "Python", "Docker"],
+      "technologies": [
+        "GCP",
+        "Airflow",
+        "dbt",
+        "Python",
+        "Docker"
+      ],
       "icon": "fas fa-network-wired",
-      "image": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/gcp-dbt-airflow.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -103,10 +168,21 @@
       "title": "Spark and Kafka IoT Data Processing",
       "description": "IoT streaming analytics pipeline for low-latency sensor data processing with Kafka and Spark.",
       "longDescription": "Built an IoT processing pattern that ingests simulated device streams through Kafka and processes events with Spark for downstream analytics. The repository focuses on event flow, stream transformations, and practical pipeline organization.",
+      "highlights": [
+        "Simulates device event streams to exercise Kafka ingestion patterns.",
+        "Processes sensor events with Spark for downstream analytical consumption.",
+        "Documents the end-to-end stream path from event production to transformed outputs."
+      ],
       "category": "Real-Time Analytics",
-      "technologies": ["Kafka", "Spark", "Python", "Streaming", "IoT"],
+      "technologies": [
+        "Kafka",
+        "Spark",
+        "Python",
+        "Streaming",
+        "IoT"
+      ],
       "icon": "fas fa-satellite-dish",
-      "image": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/iot-streaming.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -119,10 +195,20 @@
       "title": "Goodreads ETL Pipeline",
       "description": "Python ETL project for collecting, transforming, and preparing book datasets for analysis.",
       "longDescription": "Developed a book-data ETL pipeline that extracts source records, standardizes fields, and prepares analysis-friendly datasets. The project is useful for demonstrating batch data cleaning, reproducible scripts, and entity-level transformation logic.",
+      "highlights": [
+        "Extracts and standardizes book records into analysis-friendly structures.",
+        "Encapsulates repeatable cleaning steps in Python ETL scripts.",
+        "Focuses on entity-level transformations that make source data easier to query."
+      ],
       "category": "ETL & Data Modeling",
-      "technologies": ["Python", "ETL", "Data Cleaning", "Data Modeling"],
+      "technologies": [
+        "Python",
+        "ETL",
+        "Data Cleaning",
+        "Data Modeling"
+      ],
       "icon": "fas fa-book",
-      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/goodreads-etl.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -135,10 +221,21 @@
       "title": "MyCodeBuddy",
       "description": "AI multi-agent coding assistant that turns natural language prompts into software project scaffolds.",
       "longDescription": "Built a multi-agent AI coding assistant using LangGraph, FastAPI, TypeScript, and Groq LLMs. The project demonstrates backend orchestration, agent state flow, prompt routing, and a web interface for generating software project structure from user intent.",
+      "highlights": [
+        "Uses LangGraph to coordinate agent state and prompt routing across coding tasks.",
+        "Exposes backend orchestration through FastAPI with a TypeScript web interface.",
+        "Generates project structure from natural language intent while keeping flow visible."
+      ],
       "category": "Generative AI",
-      "technologies": ["LangGraph", "FastAPI", "Groq", "Python", "TypeScript"],
+      "technologies": [
+        "LangGraph",
+        "FastAPI",
+        "Groq",
+        "Python",
+        "TypeScript"
+      ],
       "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/mycodebuddy.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -151,10 +248,21 @@
       "title": "End-to-End Snowflake dbt Tableau Pipeline",
       "description": "Analytics workflow moving warehouse data through Snowflake and dbt into Tableau-ready models.",
       "longDescription": "Created an end-to-end analytics workflow that models warehouse data in Snowflake, applies dbt transformation patterns, and prepares BI-ready outputs for Tableau. The project demonstrates analytics engineering handoffs from transformation logic to dashboard consumption.",
+      "highlights": [
+        "Builds Snowflake models with dbt so transformation logic is versionable and reviewable.",
+        "Prepares BI-facing tables for Tableau consumption rather than stopping at raw loads.",
+        "Shows the handoff between warehouse modeling and dashboard-ready analytics datasets."
+      ],
       "category": "BI & Warehousing",
-      "technologies": ["Snowflake", "dbt", "Tableau", "SQL", "Analytics Engineering"],
+      "technologies": [
+        "Snowflake",
+        "dbt",
+        "Tableau",
+        "SQL",
+        "Analytics Engineering"
+      ],
       "icon": "fas fa-chart-line",
-      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/snowflake-tableau.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -167,10 +275,20 @@
       "title": "Realtime Warehousing with Snowflake",
       "description": "Real-time warehousing project focused on Snowflake ingestion, modeling, and analytics delivery.",
       "longDescription": "Explored real-time warehouse patterns around Snowflake ingestion and modeled outputs for reporting workloads. The project emphasizes ingestion design, warehouse tables, and analytics-ready delivery for near-real-time use cases.",
+      "highlights": [
+        "Explores ingestion patterns for near-real-time reporting workloads in Snowflake.",
+        "Models warehouse tables around analytics delivery instead of one-off extracts.",
+        "Highlights the tradeoff between stream ingestion design and BI-ready table shape."
+      ],
       "category": "Data Warehousing",
-      "technologies": ["Snowflake", "SQL", "Data Warehousing", "Streaming"],
+      "technologies": [
+        "Snowflake",
+        "SQL",
+        "Data Warehousing",
+        "Streaming"
+      ],
       "icon": "fas fa-warehouse",
-      "image": "https://images.unsplash.com/photo-1506399309177-3b43e99fead2?auto=format&fit=crop&w=900&q=80",
+      "image": "assets/img/projects/realtime-snowflake.jpg",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
@@ -185,7 +303,10 @@
       "title": "Contribution History",
       "description": "Generated GitHub activity visualization kept separate from the core data engineering project grid.",
       "category": "Developer Activity",
-      "technologies": ["GitHub", "Automation"],
+      "technologies": [
+        "GitHub",
+        "Automation"
+      ],
       "github": "https://github.com/akasapu01/contribution-history",
       "links": {
         "github": "https://github.com/akasapu01/contribution-history"
@@ -195,7 +316,10 @@
       "title": "LeetCode",
       "description": "Python practice repository for algorithms, data structures, and interview preparation.",
       "category": "Practice",
-      "technologies": ["Python", "Algorithms"],
+      "technologies": [
+        "Python",
+        "Algorithms"
+      ],
       "github": "https://github.com/akasapu01/LeetCode",
       "links": {
         "github": "https://github.com/akasapu01/LeetCode"

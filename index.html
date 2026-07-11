@@ -11,14 +11,39 @@
     <meta property="og:description" content="Senior Data Engineer building cloud-scale batch and streaming data platforms across AWS, Azure, GCP, Snowflake, Databricks, Airflow, dbt, and PySpark.">
     <meta property="og:type" content="profile">
     <meta property="og:url" content="https://akasapu01.github.io/">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:site_name" content="Jyothi Sree Portfolio">
+    <meta property="og:image" content="https://akasapu01.github.io/assets/img/og-card.png">
+    <meta property="og:image:secure_url" content="https://akasapu01.github.io/assets/img/og-card.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Jyothi Sree Senior Data Engineer portfolio preview">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Jyothi Sree | Senior Data Engineer">
     <meta name="twitter:description" content="Cloud data engineering portfolio with pipeline, Lakehouse, streaming, analytics engineering, and AI projects.">
+    <meta name="twitter:image" content="https://akasapu01.github.io/assets/img/og-card.png">
+    <meta name="twitter:image:alt" content="Jyothi Sree Senior Data Engineer portfolio preview">
     <title>Jyothi Sree | Senior Data Engineer</title>
     <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <noscript>
+        <style>
+            @media (max-width: 968px) {
+                .nav-toggle { display: none; }
+                .nav-menu {
+                    position: static;
+                    width: auto;
+                    height: auto;
+                    visibility: visible;
+                    transform: none;
+                    background: transparent;
+                    backdrop-filter: none;
+                    padding: 1rem 0 0;
+                }
+            }
+        </style>
+    </noscript>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -29,6 +54,7 @@
         "jobTitle": "Senior Data Engineer",
         "email": "mailto:Jyothisree.work@gmail.com",
         "url": "https://akasapu01.github.io/",
+        "image": "https://akasapu01.github.io/assets/img/profile-photo.jpg",
         "sameAs": [
           "https://www.linkedin.com/in/jyothisree123/",
           "https://github.com/akasapu01"
@@ -67,7 +93,12 @@
             <div class="container">
                 <h1>Jyothi Sree</h1>
                 <p>Senior Data Engineer with 6+ years building batch and streaming data platforms across AWS, Azure, GCP, Snowflake, Databricks, Airflow, dbt, and PySpark.</p>
-                <p><a href="mailto:Jyothisree.work@gmail.com">Jyothisree.work@gmail.com</a> · <a href="https://www.linkedin.com/in/jyothisree123/">LinkedIn</a></p>
+                <p><a href="mailto:Jyothisree.work@gmail.com">Jyothisree.work@gmail.com</a> · <a href="https://www.linkedin.com/in/jyothisree123/">LinkedIn</a> · <a href="https://github.com/akasapu01">GitHub</a></p>
+                <ul>
+                    <li>American Express: AWS Glue, S3, Redshift, Airflow, Kinesis, Terraform.</li>
+                    <li>Cardinal Health: Azure Data Factory, Databricks, Delta Lake, Synapse.</li>
+                    <li>Featured projects: Weather data quality pipeline, NYC Taxi GCP data lake, Spark/Kafka/Cassandra streaming pipeline.</li>
+                </ul>
             </div>
         </section>
     </noscript>
@@ -75,15 +106,33 @@
     <main id="main">
     <!-- Hero -->
     <section id="home" class="hero-section">
-        <div class="container">
-            <p class="hero-greeting" id="hero-greeting">Hello, I'm</p>
-            <h1 class="hero-name" id="hero-name">Jyothi Sree</h1>
-            <h2 class="hero-title" id="hero-title">Senior Data Engineer</h2>
-            <p class="hero-tagline" id="hero-tagline">Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks.</p>
-            <p class="hero-description" id="hero-description">I design reliable data platforms for regulated finance and healthcare environments, with hands-on ownership across Python, SQL, PySpark, Airflow, dbt, Terraform, CI/CD, and cloud-native analytics architecture.</p>
-            <div class="hero-cta" id="hero-cta"></div>
-            <div class="hero-social" id="hero-social"></div>
-            <div class="hero-stats" id="hero-stats"></div>
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <p class="hero-greeting" id="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name" id="hero-name">Jyothi Sree</h1>
+                <h2 class="hero-title" id="hero-title">Senior Data Engineer</h2>
+                <p class="hero-tagline" id="hero-tagline">Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks.</p>
+                <p class="hero-description" id="hero-description">I design reliable data platforms for regulated finance and healthcare environments, with hands-on ownership across Python, SQL, PySpark, Airflow, dbt, Terraform, CI/CD, and cloud-native analytics architecture.</p>
+                <div class="hero-cta" id="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Portfolio</a>
+                </div>
+                <div class="hero-social" id="hero-social">
+                    <a href="https://www.linkedin.com/in/jyothisree123/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="mailto:Jyothisree.work@gmail.com" class="social-link" aria-label="Email Jyothi Sree"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                </div>
+                <div class="hero-stats" id="hero-stats">
+                    <div class="stat-item"><span class="stat-number">6+</span><span class="stat-label">Years Experience</span></div>
+                    <div class="stat-item"><span class="stat-number">11</span><span class="stat-label">Projects Completed</span></div>
+                    <div class="stat-item"><span class="stat-number">2</span><span class="stat-label">Certifications</span></div>
+                </div>
+            </div>
+            <div class="hero-media" id="hero-media">
+                <picture id="hero-picture">
+                    <source type="image/webp" srcset="assets/img/profile-photo-240.webp 240w, assets/img/profile-photo-420.webp 420w, assets/img/profile-photo-900.webp 900w" sizes="(max-width: 480px) 96px, (max-width: 968px) 150px, 420px">
+                    <img id="hero-photo" src="assets/img/profile-photo.jpg" srcset="assets/img/profile-photo-240.jpg 240w, assets/img/profile-photo-420.jpg 420w, assets/img/profile-photo.jpg 900w" sizes="(max-width: 480px) 96px, (max-width: 968px) 150px, 420px" alt="Professional portrait of Jyothi Sree" width="900" height="1124" fetchpriority="high" data-hide-on-error=".hero-media">
+                </picture>
+            </div>
         </div>
     </section>
 
@@ -92,29 +141,161 @@
         <div class="container">
             <h2 class="section-title" id="about-title">About Me</h2>
             <div class="about-content" id="about-content">
-                <p>Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks.</p>
-                <p>Skilled in data modeling, warehousing, Lakehouse architecture, CDC, orchestration, and governance for enterprise production environments.</p>
+                <p>Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks, with a track record of cutting pipeline runtime and cost while improving data quality controls for regulated environments.</p>
+                <p>Skilled in data modeling, warehousing, Lakehouse architecture, CDC, orchestration, and governance, delivering analytics-ready datasets for enterprise production environments in finance and healthcare.</p>
+                <p>I partner with analytics, compliance, and platform teams to turn business requirements into trustworthy datasets for BI, reporting, and governed AI workloads.</p>
             </div>
-            <div class="about-highlights" id="about-highlights"></div>
+            <div class="about-highlights" id="about-highlights">
+                <div class="highlight-card"><i class="fas fa-briefcase" aria-hidden="true"></i><span class="stat-number">6+</span><p>Years in Data Engineering</p></div>
+                <div class="highlight-card"><i class="fas fa-project-diagram" aria-hidden="true"></i><span class="stat-number">500K+</span><p>Streaming Events per Day</p></div>
+                <div class="highlight-card"><i class="fas fa-code" aria-hidden="true"></i><span class="stat-number">10M+</span><p>Daily Events Processed</p></div>
+            </div>
         </div>
     </section>
 
     <!-- Experience -->
     <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title" id="experience-title">Experience</h2>
-            <div class="experience-timeline" id="experience-timeline"></div>
+            <h2 class="section-title" id="experience-title">Professional Experience</h2>
+            <div class="experience-timeline" id="experience-timeline">
+                <article class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-brand">
+                                <div class="experience-logo"><span>AE</span></div>
+                                <div>
+                                    <h3 class="experience-role">Sr. Data Engineer</h3>
+                                    <p class="experience-company">American Express</p>
+                                </div>
+                            </div>
+                            <div class="experience-meta"><span>June 2024 - Present</span><span>San Francisco, CA, USA</span></div>
+                        </div>
+                        <ul class="experience-list">
+                            <li>Architected AWS Glue, S3, Redshift, and Airflow pipelines for curated financial datasets.</li>
+                            <li>Automated validation workflows with Python, SQL, Lambda, and Step Functions.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-brand">
+                                <div class="experience-logo"><span>CH</span></div>
+                                <div>
+                                    <h3 class="experience-role">Data Engineer</h3>
+                                    <p class="experience-company">Cardinal Health</p>
+                                </div>
+                            </div>
+                            <div class="experience-meta"><span>January 2023 - May 2024</span><span>Dublin, OH, USA</span></div>
+                        </div>
+                        <ul class="experience-list">
+                            <li>Engineered Azure Data Factory, Databricks, ADLS Gen2, and Delta Lake pipelines for governed healthcare analytics.</li>
+                            <li>Standardized governance controls with Azure Purview, Key Vault, and CI/CD practices.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-brand">
+                                <div class="experience-logo"><span>AP</span></div>
+                                <div>
+                                    <h3 class="experience-role">Data Engineer</h3>
+                                    <p class="experience-company">Apple</p>
+                                </div>
+                            </div>
+                            <div class="experience-meta"><span>November 2021 - August 2022</span><span>Hyderabad, India</span></div>
+                        </div>
+                        <ul class="experience-list">
+                            <li>Delivered Snowflake, Databricks, Airflow, and AWS pipelines for production reporting workflows.</li>
+                            <li>Coordinated Kafka, Spark Streaming, REST API, and CDC integrations for near real-time availability.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-brand">
+                                <div class="experience-logo"><span>OT</span></div>
+                                <div>
+                                    <h3 class="experience-role">Associate Data Engineer</h3>
+                                    <p class="experience-company">Onward Technologies</p>
+                                </div>
+                            </div>
+                            <div class="experience-meta"><span>August 2019 - October 2021</span><span>Hyderabad, India</span></div>
+                        </div>
+                        <ul class="experience-list">
+                            <li>Orchestrated GCP pipelines with BigQuery, Dataflow, Pub/Sub, and Cloud Composer.</li>
+                            <li>Modeled warehouse structures in BigQuery with SQL, dbt, and Cloud Storage.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 
     <!-- Work -->
     <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title" id="work-title">Work</h2>
-            <div class="work-grid" id="work-grid"></div>
+            <h2 class="section-title" id="work-title">Data Engineering Projects</h2>
+            <div class="work-grid" id="work-grid">
+                <div class="work-card">
+                    <div class="work-image"><div class="work-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></div></div>
+                    <div class="work-content">
+                        <p class="work-category">Data Quality & Pipelines</p>
+                        <h3 class="work-title">Weather Data Pipeline with Great Expectations</h3>
+                        <p class="work-description">Dockerized weather ingestion pipeline with Great Expectations checks before curated daily loads.</p>
+                        <div class="work-tags"><span class="tag">Python</span><span class="tag">Docker</span><span class="tag">Great Expectations</span><span class="tag">ETL</span></div>
+                        <div class="work-actions"><a href="https://github.com/akasapu01/weather-data-pipeline-great-expectations" target="_blank" rel="noopener noreferrer" class="work-link">View repository</a></div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="work-image"><div class="work-icon"><i class="fas fa-cloud" aria-hidden="true"></i></div></div>
+                    <div class="work-content">
+                        <p class="work-category">Cloud Data Lake</p>
+                        <h3 class="work-title">NYC Taxi Data Lake on GCP</h3>
+                        <p class="work-description">GCP data lake project for NYC taxi analytics with infrastructure, ingestion, and warehouse-ready modeling.</p>
+                        <div class="work-tags"><span class="tag">GCP</span><span class="tag">BigQuery</span><span class="tag">Terraform</span><span class="tag">Python</span></div>
+                        <div class="work-actions"><a href="https://github.com/akasapu01/nyc-taxi-data-lake-gcp" target="_blank" rel="noopener noreferrer" class="work-link">View repository</a></div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="work-image"><div class="work-icon"><i class="fas fa-stream" aria-hidden="true"></i></div></div>
+                    <div class="work-content">
+                        <p class="work-category">Streaming Data Engineering</p>
+                        <h3 class="work-title">Spark Kafka Cassandra Pipeline</h3>
+                        <p class="work-description">Streaming data pipeline connecting Kafka, Spark, and Cassandra for event processing and analytical storage.</p>
+                        <div class="work-tags"><span class="tag">Spark</span><span class="tag">Kafka</span><span class="tag">Cassandra</span><span class="tag">Docker</span></div>
+                        <div class="work-actions"><a href="https://github.com/akasapu01/spark-kafka-cassandra-pipeline" target="_blank" rel="noopener noreferrer" class="work-link">View repository</a></div>
+                    </div>
+                </div>
+            </div>
             <div class="activity-projects" id="activity-projects">
                 <h3 class="section-subheading">Practice & Activity</h3>
-                <div class="activity-grid" id="activity-grid"></div>
+                <div class="activity-grid" id="activity-grid">
+                    <article class="activity-card">
+                        <div>
+                            <p class="work-category">Developer Activity</p>
+                            <h3>Contribution History</h3>
+                            <p>Generated GitHub activity visualization kept separate from the core data engineering project grid.</p>
+                        </div>
+                        <div class="work-tags"><span class="tag">GitHub</span><span class="tag">Automation</span></div>
+                        <a href="https://github.com/akasapu01/contribution-history" target="_blank" rel="noopener noreferrer" class="work-link">View repository</a>
+                    </article>
+                    <article class="activity-card">
+                        <div>
+                            <p class="work-category">Practice</p>
+                            <h3>LeetCode</h3>
+                            <p>Python practice repository for algorithms, data structures, and interview preparation.</p>
+                        </div>
+                        <div class="work-tags"><span class="tag">Python</span><span class="tag">Algorithms</span></div>
+                        <a href="https://github.com/akasapu01/LeetCode" target="_blank" rel="noopener noreferrer" class="work-link">View repository</a>
+                    </article>
+                </div>
             </div>
         </div>
     </section>
@@ -122,8 +303,25 @@
     <!-- Skills -->
     <section id="skills" class="section">
         <div class="container">
-            <h2 class="section-title" id="skills-title">Skills</h2>
-            <div class="skills-grid" id="skills-grid"></div>
+            <h2 class="section-title" id="skills-title">Skills & Technologies</h2>
+            <div class="skills-grid" id="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-header"><i class="fas fa-code" aria-hidden="true"></i><h3 class="skill-category-name">Programming Languages</h3></div>
+                    <div class="skill-list"><span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span class="skill-tag">Bash</span><span class="skill-tag">PowerShell</span></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header"><i class="fas fa-toolbox" aria-hidden="true"></i><h3 class="skill-category-name">Frameworks & Libraries</h3></div>
+                    <div class="skill-list"><span class="skill-tag">dbt</span><span class="skill-tag">Spark</span><span class="skill-tag">Hive</span><span class="skill-tag">GCP Dataflow</span><span class="skill-tag">LangChain</span></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header"><i class="fas fa-wrench" aria-hidden="true"></i><h3 class="skill-category-name">Tools & Platforms</h3></div>
+                    <div class="skill-list"><span class="skill-tag">Snowflake</span><span class="skill-tag">Redshift</span><span class="skill-tag">Databricks</span><span class="skill-tag">AWS Glue</span><span class="skill-tag">Azure Data Factory</span><span class="skill-tag">BigQuery</span><span class="skill-tag">Kafka</span><span class="skill-tag">Terraform</span></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header"><i class="fas fa-laptop-code" aria-hidden="true"></i><h3 class="skill-category-name">Technical Skills</h3></div>
+                    <div class="skill-list"><span class="skill-tag">Data Modeling</span><span class="skill-tag">Warehousing</span><span class="skill-tag">Lakehouse Architecture</span><span class="skill-tag">CDC</span><span class="skill-tag">Orchestration</span><span class="skill-tag">Governance</span><span class="skill-tag">RAG</span></div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -131,19 +329,59 @@
     <section id="education" class="section">
         <div class="container">
             <h2 class="section-title" id="education-title">Education & Certifications</h2>
-            <div class="education-grid" id="education-grid"></div>
+            <div class="education-grid" id="education-grid">
+                <article class="education-card">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <div>
+                        <h3>Master's in Computer Science</h3>
+                        <p>Florida Atlantic University</p>
+                        <span>Graduate study focused on software systems and computer science fundamentals.</span>
+                    </div>
+                </article>
+                <article class="education-card">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <div>
+                        <h3>Bachelor's in Software Engineering</h3>
+                        <p>St. Francis College for Women</p>
+                        <span>Undergraduate study in software engineering, programming, and systems design.</span>
+                    </div>
+                </article>
+            </div>
             <h3 class="section-subheading" id="certifications-title">Certifications</h3>
-            <div class="certifications-grid" id="certifications-grid"></div>
+            <div class="certifications-grid" id="certifications-grid">
+                <article class="certification-card">
+                    <i class="fas fa-certificate" aria-hidden="true"></i>
+                    <div>
+                        <h3>AWS Certified Solutions Architect Professional</h3>
+                        <p>AWS - 2024</p>
+                    </div>
+                </article>
+                <article class="certification-card">
+                    <i class="fas fa-certificate" aria-hidden="true"></i>
+                    <div>
+                        <h3>Databricks Certified Data Engineer Professional</h3>
+                        <p>Databricks - 2024</p>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title" id="contact-title">Contact</h2>
-            <p class="section-subtitle" id="contact-subtitle"></p>
-            <div class="contact-info" id="contact-info"></div>
-            <div class="contact-social" id="contact-social"></div>
+            <h2 class="section-title" id="contact-title">Let's Connect</h2>
+            <p class="section-subtitle" id="contact-subtitle">Open to data engineering roles and collaborations across cloud data platforms, pipelines, Lakehouse architecture, and analytics engineering.</p>
+            <div class="contact-info" id="contact-info">
+                <div class="contact-item"><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:Jyothisree.work@gmail.com">Jyothisree.work@gmail.com</a></div>
+                <div class="contact-item"><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+14087620694">+14087620694</a></div>
+                <div class="contact-item"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> San Francisco, CA, USA</div>
+                <div class="contact-item"><i class="fas fa-clock" aria-hidden="true"></i> Open to opportunities</div>
+            </div>
+            <div class="contact-social" id="contact-social">
+                <a href="https://www.linkedin.com/in/jyothisree123/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="mailto:Jyothisree.work@gmail.com" class="social-link" aria-label="Email Jyothi Sree"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            </div>
         </div>
     </section>
     </main>
@@ -151,9 +389,9 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p id="footer-text"></p>
-            <p id="footer-copyright"></p>
-            <div id="footer-links"></div>
+            <p id="footer-text">Designed &amp; Built by Jyothi Sree</p>
+            <p id="footer-copyright">&copy; 2026 All rights reserved.</p>
+            <div id="footer-links"><a href="https://www.linkedin.com/in/jyothisree123/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
         </div>
     </footer>
 
