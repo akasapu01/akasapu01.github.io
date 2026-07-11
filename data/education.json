@@ -4,30 +4,32 @@
   "certificationsTitle": "Certifications",
   "education": [
     {
-      "degree": "Master's",
+      "degree": "Master's in Computer Science",
       "school": "Florida Atlantic University",
       "institution": "Florida Atlantic University",
       "period": "",
-      "details": "",
-      "description": ""
+      "details": "Computer Science",
+      "description": "Graduate study focused on software systems and computer science fundamentals."
     },
     {
-      "degree": "Bachelor's",
-      "school": "St. Francis College for women",
-      "institution": "St. Francis College for women",
+      "degree": "Bachelor's in Software Engineering",
+      "school": "St. Francis College for Women",
+      "institution": "St. Francis College for Women",
       "period": "",
-      "details": "",
-      "description": ""
+      "details": "Software Engineering",
+      "description": "Undergraduate study in software engineering, programming, and systems design."
     }
   ],
   "certifications": [
     {
       "name": "AWS Certified Solutions Architect Professional",
-      "issuer": "AWS"
+      "issuer": "AWS",
+      "year": "2024"
     },
     {
       "name": "Databricks Certified Data Engineer Professional",
-      "issuer": "Databricks"
+      "issuer": "Databricks",
+      "year": "2024"
     }
   ]
 }

@@ -1,377 +1,204 @@
 {
   "_instructions": "Add your professional projects.",
-  "sectionTitle": "Portfolio",
-  "subtitle": "Featured professional projects",
+  "sectionTitle": "Data Engineering Projects",
+  "subtitle": "Cloud, streaming, Lakehouse, analytics engineering, and AI projects",
   "projects": [
     {
-      "title": "weather-data-pipeline-great-expectations",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
+      "title": "Weather Data Pipeline with Great Expectations",
+      "description": "Dockerized weather ingestion pipeline with Great Expectations checks before curated daily loads.",
+      "longDescription": "Built a reproducible weather ingestion pipeline that validates API payloads with Great Expectations before loading curated daily partitions. The repository emphasizes local reproducibility, validation checkpoints, failure handling, and clear pipeline documentation.",
+      "category": "Data Quality & Pipelines",
+      "technologies": ["Python", "Docker", "Great Expectations", "ETL"],
       "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1558600053-2efe29d4c053?auto=format&fit=crop&w=900&q=80",
       "featured": true,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
-      "demo": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
       "links": {
-        "github": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
-        "demo": "https://github.com/akasapu01/weather-data-pipeline-great-expectations",
-        "live": "https://github.com/akasapu01/weather-data-pipeline-great-expectations"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/weather-data-pipeline-great-expectations"
       }
     },
     {
-      "title": "nyc-taxi-data-lake-gcp",
-      "description": "Modern web application demonstrating clean code principles",
-      "longDescription": "Modern web application demonstrating clean code principles",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "HTML",
-        "HCL",
-        "Shell"
-      ],
-      "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "NYC Taxi Data Lake on GCP",
+      "description": "GCP data lake project for NYC taxi analytics with infrastructure, ingestion, and warehouse-ready modeling.",
+      "longDescription": "Designed a cloud data lake pattern for NYC taxi data using GCP services, Terraform-based infrastructure, Python ingestion, and SQL-oriented analytics outputs. The project demonstrates how raw public datasets can be organized into maintainable cloud storage and query layers.",
+      "category": "Cloud Data Lake",
+      "technologies": ["GCP", "BigQuery", "Terraform", "Python", "Cloud Storage"],
+      "icon": "fas fa-cloud",
+      "image": "https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
-      "demo": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
       "links": {
-        "github": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
-        "demo": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp",
-        "live": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/nyc-taxi-data-lake-gcp"
       }
     },
     {
-      "title": "spark-kafka-cassandra-pipeline",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "Spark Kafka Cassandra Pipeline",
+      "description": "Streaming data pipeline connecting Kafka, Spark, and Cassandra for event processing and analytical storage.",
+      "longDescription": "Implemented a streaming architecture that moves events through Kafka, processes them with Spark, and persists analytical outputs in Cassandra. The repository highlights scalable stream processing patterns, containerized services, and event-driven data modeling.",
+      "category": "Streaming Data Engineering",
+      "technologies": ["Spark", "Kafka", "Cassandra", "Python", "Docker"],
+      "icon": "fas fa-stream",
+      "image": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
-      "demo": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
       "links": {
-        "github": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
-        "demo": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline",
-        "live": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/spark-kafka-cassandra-pipeline"
       }
     },
     {
-      "title": "ecommerce-lakehouse-medallion",
-      "description": "Practice repository for exploring advanced features",
-      "longDescription": "Practice repository for exploring advanced features",
-      "category": "Backend Development",
-      "technologies": [
-        "HTML",
-        "Python"
-      ],
-      "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "Ecommerce Lakehouse Medallion",
+      "description": "Ecommerce Lakehouse project organized around bronze, silver, and gold analytics layers.",
+      "longDescription": "Modeled an ecommerce Lakehouse using medallion architecture to separate raw ingestion, cleaned entities, and analytics-ready outputs. The project focuses on repeatable transformations, business-friendly models, and a clear path from raw events to reporting datasets.",
+      "category": "Lakehouse Architecture",
+      "technologies": ["Python", "SQL", "Lakehouse", "Medallion Architecture", "Analytics"],
+      "icon": "fas fa-layer-group",
+      "image": "https://images.unsplash.com/photo-1449247666642-264389f5f5b1?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
-      "demo": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
       "links": {
-        "github": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
-        "demo": "https://github.com/akasapu01/ecommerce-lakehouse-medallion",
-        "live": "https://github.com/akasapu01/ecommerce-lakehouse-medallion"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/ecommerce-lakehouse-medallion"
       }
     },
     {
-      "title": "elt-pipeline-dbt-snowflake-airflow",
-      "description": "Hands-on learning experience with modern frameworks",
-      "longDescription": "Hands-on learning experience with modern frameworks",
-      "category": "Backend Development",
-      "technologies": [
-        "HTML",
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "ELT Pipeline with dbt, Snowflake, and Airflow",
+      "description": "Warehouse ELT workflow using Airflow orchestration, dbt transformations, and Snowflake modeling.",
+      "longDescription": "Built an ELT workflow that orchestrates ingestion with Airflow, transforms warehouse models with dbt, and targets Snowflake analytics tables. The repository demonstrates modular transformation design, dependency-aware scheduling, and reproducible local development patterns.",
+      "category": "Analytics Engineering",
+      "technologies": ["Airflow", "dbt", "Snowflake", "Python", "Docker"],
+      "icon": "fas fa-database",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
-      "demo": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
       "links": {
-        "github": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
-        "demo": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow",
-        "live": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/elt-pipeline-dbt-snowflake-airflow"
       }
     },
     {
-      "title": "data-pipeline-with-dbt-using-airflow-on-gcp",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "Data Pipeline with dbt and Airflow on GCP",
+      "description": "GCP pipeline combining Airflow orchestration, dbt transformations, and Python ingestion patterns.",
+      "longDescription": "Created a GCP-oriented data pipeline that combines Airflow scheduling, dbt transformation structure, Python jobs, and containerized local workflows. The project demonstrates how cloud pipelines can be kept reproducible while separating orchestration from transformation logic.",
+      "category": "Cloud Orchestration",
+      "technologies": ["GCP", "Airflow", "dbt", "Python", "Docker"],
+      "icon": "fas fa-network-wired",
+      "image": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
-      "demo": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
       "links": {
-        "github": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
-        "demo": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp",
-        "live": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/data-pipeline-with-dbt-using-airflow-on-gcp"
       }
     },
     {
-      "title": "spark-and-kafka_iot-data-processing-and-analytics",
-      "description": "Personal development project using industry best practices",
-      "longDescription": "Personal development project using industry best practices",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "Spark and Kafka IoT Data Processing",
+      "description": "IoT streaming analytics pipeline for low-latency sensor data processing with Kafka and Spark.",
+      "longDescription": "Built an IoT processing pattern that ingests simulated device streams through Kafka and processes events with Spark for downstream analytics. The repository focuses on event flow, stream transformations, and practical pipeline organization.",
+      "category": "Real-Time Analytics",
+      "technologies": ["Kafka", "Spark", "Python", "Streaming", "IoT"],
+      "icon": "fas fa-satellite-dish",
+      "image": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
-      "demo": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
       "links": {
-        "github": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
-        "demo": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics",
-        "live": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/spark-and-kafka_iot-data-processing-and-analytics"
       }
     },
     {
-      "title": "goodreads_etl_pipeline",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "Goodreads ETL Pipeline",
+      "description": "Python ETL project for collecting, transforming, and preparing book datasets for analysis.",
+      "longDescription": "Developed a book-data ETL pipeline that extracts source records, standardizes fields, and prepares analysis-friendly datasets. The project is useful for demonstrating batch data cleaning, reproducible scripts, and entity-level transformation logic.",
+      "category": "ETL & Data Modeling",
+      "technologies": ["Python", "ETL", "Data Cleaning", "Data Modeling"],
+      "icon": "fas fa-book",
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/goodreads_etl_pipeline",
-      "demo": "https://github.com/akasapu01/goodreads_etl_pipeline",
       "links": {
-        "github": "https://github.com/akasapu01/goodreads_etl_pipeline",
-        "demo": "https://github.com/akasapu01/goodreads_etl_pipeline",
-        "live": "https://github.com/akasapu01/goodreads_etl_pipeline"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/goodreads_etl_pipeline"
       }
     },
     {
       "title": "MyCodeBuddy",
-      "description": "AI multi agent coding assistant that converts natural language prompts into full software projects using LangGraph, FastAPI, and Groq LLM.",
-      "longDescription": "AI multi agent coding assistant that converts natural language prompts into full software projects using LangGraph, FastAPI, and Groq LLM.",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
+      "description": "AI multi-agent coding assistant that turns natural language prompts into software project scaffolds.",
+      "longDescription": "Built a multi-agent AI coding assistant using LangGraph, FastAPI, TypeScript, and Groq LLMs. The project demonstrates backend orchestration, agent state flow, prompt routing, and a web interface for generating software project structure from user intent.",
+      "category": "Generative AI",
+      "technologies": ["LangGraph", "FastAPI", "Groq", "Python", "TypeScript"],
       "icon": "fas fa-brain",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/MyCodeBuddy",
-      "demo": "https://github.com/akasapu01/MyCodeBuddy",
       "links": {
-        "github": "https://github.com/akasapu01/MyCodeBuddy",
-        "demo": "https://github.com/akasapu01/MyCodeBuddy",
-        "live": "https://github.com/akasapu01/MyCodeBuddy"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/MyCodeBuddy"
       }
     },
     {
-      "title": "end-to-end-pipeline-snowflake-dbt-tableau",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "End-to-End Snowflake dbt Tableau Pipeline",
+      "description": "Analytics workflow moving warehouse data through Snowflake and dbt into Tableau-ready models.",
+      "longDescription": "Created an end-to-end analytics workflow that models warehouse data in Snowflake, applies dbt transformation patterns, and prepares BI-ready outputs for Tableau. The project demonstrates analytics engineering handoffs from transformation logic to dashboard consumption.",
+      "category": "BI & Warehousing",
+      "technologies": ["Snowflake", "dbt", "Tableau", "SQL", "Analytics Engineering"],
+      "icon": "fas fa-chart-line",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
-      "demo": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
       "links": {
-        "github": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
-        "demo": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau",
-        "live": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/end-to-end-pipeline-snowflake-dbt-tableau"
       }
     },
     {
-      "title": "realtime-warehousing-with-snowflake",
-      "description": "Practice repository for exploring advanced features",
-      "longDescription": "Practice repository for exploring advanced features",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "title": "Realtime Warehousing with Snowflake",
+      "description": "Real-time warehousing project focused on Snowflake ingestion, modeling, and analytics delivery.",
+      "longDescription": "Explored real-time warehouse patterns around Snowflake ingestion and modeled outputs for reporting workloads. The project emphasizes ingestion design, warehouse tables, and analytics-ready delivery for near-real-time use cases.",
+      "category": "Data Warehousing",
+      "technologies": ["Snowflake", "SQL", "Data Warehousing", "Streaming"],
+      "icon": "fas fa-warehouse",
+      "image": "https://images.unsplash.com/photo-1506399309177-3b43e99fead2?auto=format&fit=crop&w=900&q=80",
       "featured": false,
       "status": "Completed",
       "role": "Lead Developer",
-      "duration": "",
-      "client": "",
       "github": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
-      "demo": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
       "links": {
-        "github": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
-        "demo": "https://github.com/akasapu01/realtime-warehousing-with-snowflake",
-        "live": "https://github.com/akasapu01/realtime-warehousing-with-snowflake"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/realtime-warehousing-with-snowflake"
       }
-    },
+    }
+  ],
+  "activityProjects": [
     {
-      "title": "contribution-history",
-      "description": "Generated GitHub contribution history",
-      "longDescription": "Generated GitHub contribution history",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "status": "Completed",
-      "role": "Lead Developer",
-      "duration": "",
-      "client": "",
+      "title": "Contribution History",
+      "description": "Generated GitHub activity visualization kept separate from the core data engineering project grid.",
+      "category": "Developer Activity",
+      "technologies": ["GitHub", "Automation"],
       "github": "https://github.com/akasapu01/contribution-history",
-      "demo": "https://github.com/akasapu01/contribution-history",
       "links": {
-        "github": "https://github.com/akasapu01/contribution-history",
-        "demo": "https://github.com/akasapu01/contribution-history",
-        "live": "https://github.com/akasapu01/contribution-history"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/contribution-history"
       }
     },
     {
       "title": "LeetCode",
-      "description": "GitHub repository: LeetCode",
-      "longDescription": "GitHub repository: LeetCode",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "status": "Completed",
-      "role": "Lead Developer",
-      "duration": "",
-      "client": "",
+      "description": "Python practice repository for algorithms, data structures, and interview preparation.",
+      "category": "Practice",
+      "technologies": ["Python", "Algorithms"],
       "github": "https://github.com/akasapu01/LeetCode",
-      "demo": "https://github.com/akasapu01/LeetCode",
       "links": {
-        "github": "https://github.com/akasapu01/LeetCode",
-        "demo": "https://github.com/akasapu01/LeetCode",
-        "live": "https://github.com/akasapu01/LeetCode"
-      },
-      "metrics": {
-        "users": "",
-        "performance": "",
-        "impact": ""
+        "github": "https://github.com/akasapu01/LeetCode"
       }
     }
   ]

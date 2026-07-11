@@ -3,23 +3,24 @@
   "greeting": "Hello, I'm",
   "name": "Jyothi Sree",
   "title": "Senior Data Engineer",
-  "summary": "Senior Data Engineer with 2+ years of experience specializing in Python, SQL, Bash.",
+  "summary": "Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks.",
+  "description": "I design reliable data platforms for regulated finance and healthcare environments, with hands-on ownership across Python, SQL, PySpark, Airflow, dbt, Terraform, CI/CD, and cloud-native analytics architecture.",
   "avatarUrl": "/avatar.png",
   "tagline": "Senior Data Engineer",
   "stats": [
     {
       "label": "Years Experience",
-      "value": "4+",
+      "value": "6+",
       "icon": "fas fa-briefcase"
     },
     {
       "label": "Projects Completed",
-      "value": "0+",
+      "value": "11",
       "icon": "fas fa-project-diagram"
     },
     {
       "label": "Certifications",
-      "value": "2+",
+      "value": "2",
       "icon": "fas fa-certificate"
     }
   ],

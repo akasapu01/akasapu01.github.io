@@ -5,54 +5,61 @@
     {
       "title": "Sr. Data Engineer",
       "company": "American Express",
-      "period": "June 2024 – Present",
-      "location": "",
-      "description": "Architected batch pipelines across AWS Glue, S3, Redshift, and Airflow, standardizing curated financial datasets and cutting downstream report turnaround time by 35% for enterprise analytics users. Prepared RAG pipeline datasets with S3, Glue, Redshift, and vector database metadata, improving retrieval relevance by 25% for a governed LLM workload used by 8 analytics teams. Automated validation workflows with Python, SQL, Lambda, and Step Functions, reducing data inconsistencies by 40% and cutting manual reconciliation effort by 15 hours/week. Configured streaming ingestion through Kinesis, IAM, and Terraform, supporting 500K+ events/day for regulated financial data processing with zero access violations.",
+      "period": "June 2024 - Present",
+      "location": "San Francisco, CA, USA",
+      "logo": "https://www.google.com/s2/favicons?domain=americanexpress.com&sz=128",
+      "logoAlt": "American Express logo",
+      "description": "Architected batch pipelines across AWS Glue, S3, Redshift, and Airflow, standardizing curated financial datasets and cutting downstream report turnaround time by approximately 35% for enterprise analytics users. Prepared RAG pipeline datasets with S3, Glue, Redshift, and vector database metadata, improving retrieval relevance by approximately 25% for a governed LLM workload used by 8 analytics teams. Automated validation workflows with Python, SQL, Lambda, and Step Functions, reducing data inconsistencies by approximately 40% and cutting manual reconciliation effort by 15 hours/week. Configured streaming ingestion through Kinesis, IAM, and Terraform, supporting 500K+ events/day for regulated financial data processing with role-based access controls.",
       "responsibilities": [
-        "Architected batch pipelines across AWS Glue, S3, Redshift, and Airflow, standardizing curated financial datasets and cutting downstream report turnaround time by 35% for enterprise analytics users",
-        "Prepared RAG pipeline datasets with S3, Glue, Redshift, and vector database metadata, improving retrieval relevance by 25% for a governed LLM workload used by 8 analytics teams",
-        "Automated validation workflows with Python, SQL, Lambda, and Step Functions, reducing data inconsistencies by 40% and cutting manual reconciliation effort by 15 hours/week",
-        "Configured streaming ingestion through Kinesis, IAM, and Terraform, supporting 500K+ events/day for regulated financial data processing with zero access violations"
+        "Architected batch pipelines across AWS Glue, S3, Redshift, and Airflow, standardizing curated financial datasets and cutting downstream report turnaround time by approximately 35% for enterprise analytics users",
+        "Prepared RAG pipeline datasets with S3, Glue, Redshift, and vector database metadata, improving retrieval relevance by approximately 25% for a governed LLM workload used by 8 analytics teams",
+        "Automated validation workflows with Python, SQL, Lambda, and Step Functions, reducing data inconsistencies by approximately 40% and cutting manual reconciliation effort by 15 hours/week",
+        "Configured streaming ingestion through Kinesis, IAM, and Terraform, supporting 500K+ events/day for regulated financial data processing with role-based access controls"
       ]
     },
     {
       "title": "Data Engineer",
       "company": "Cardinal Health",
-      "period": "January 2023 – May 2024",
-      "location": "",
-      "description": "Engineered healthcare data pipelines with Azure Data Factory, Databricks, ADLS Gen2, and Delta Lake, enabling governed analytics for supply chain and clinical teams across 6 data domains. Optimized Synapse and Azure SQL models with Spark and SQL, improving query performance by 45% and reducing average report load time from 12 to 4 seconds. Integrated batch and streaming workloads with Event Hubs, Databricks, and ADF, reducing data latency from 4 hours to 20 minutes for downstream analytics delivery. Standardized governance controls with Azure Purview, Key Vault, and CI/CD practices, bringing 90% of pipelines under automated lineage tracking for compliant healthcare reporting.",
+      "period": "January 2023 - May 2024",
+      "location": "Dublin, OH, USA",
+      "logo": "https://www.google.com/s2/favicons?domain=cardinalhealth.com&sz=128",
+      "logoAlt": "Cardinal Health logo",
+      "description": "Engineered healthcare data pipelines with Azure Data Factory, Databricks, ADLS Gen2, and Delta Lake, enabling governed analytics for supply chain and clinical teams across 6 data domains. Optimized Synapse and Azure SQL models with Spark and SQL, improving query performance by approximately 45% and reducing average report load time from 12 to 4 seconds. Integrated batch and streaming workloads with Event Hubs, Databricks, and ADF, reducing data latency from 4 hours to 20 minutes for downstream analytics delivery. Standardized governance controls with Azure Purview, Key Vault, and CI/CD practices, bringing approximately 90% of pipelines under automated lineage tracking for compliant healthcare reporting.",
       "responsibilities": [
         "Engineered healthcare data pipelines with Azure Data Factory, Databricks, ADLS Gen2, and Delta Lake, enabling governed analytics for supply chain and clinical teams across 6 data domains",
-        "Optimized Synapse and Azure SQL models with Spark and SQL, improving query performance by 45% and reducing average report load time from 12 to 4 seconds",
+        "Optimized Synapse and Azure SQL models with Spark and SQL, improving query performance by approximately 45% and reducing average report load time from 12 to 4 seconds",
         "Integrated batch and streaming workloads with Event Hubs, Databricks, and ADF, reducing data latency from 4 hours to 20 minutes for downstream analytics delivery",
-        "Standardized governance controls with Azure Purview, Key Vault, and CI/CD practices, bringing 90% of pipelines under automated lineage tracking for compliant healthcare reporting"
+        "Standardized governance controls with Azure Purview, Key Vault, and CI/CD practices, bringing approximately 90% of pipelines under automated lineage tracking for compliant healthcare reporting"
       ]
     },
     {
       "title": "Data Engineer",
       "company": "Apple",
-      "period": "November 2021 – August 2022",
-      "location": "",
-      "description": "Delivered Snowflake, Databricks, Airflow, and AWS pipelines for Apple, improving platform reliability to 99.9% uptime across production reporting workflows. Refined Delta Lake, PySpark, and SQL transformations for Apple, improving data quality checks passed by 30% and reducing reusable dataset build time by 25%. Coordinated Kafka, Spark Streaming, REST API, and CDC integrations for Apple, cutting near real-time ingestion latency to under 5 seconds for cross-system data availability. Enhanced Git, CI/CD, Terraform, and monitoring practices for Apple, reducing deployment failures by 35% and mean time to detect issues by 40%.",
+      "period": "November 2021 - August 2022",
+      "location": "Hyderabad, India",
+      "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128",
+      "logoAlt": "Apple logo",
+      "description": "Delivered Snowflake, Databricks, Airflow, and AWS pipelines for Apple, improving platform reliability to 99.9% uptime across production reporting workflows. Refined Delta Lake, PySpark, and SQL transformations for Apple, improving data quality checks passed by approximately 30% and reducing reusable dataset build time by approximately 25%. Coordinated Kafka, Spark Streaming, REST API, and CDC integrations for Apple, cutting near real-time ingestion latency to under 5 seconds for cross-system data availability. Enhanced Git, CI/CD, Terraform, and monitoring practices for Apple, reducing deployment failures by approximately 35% and mean time to detect issues by approximately 40%.",
       "responsibilities": [
-        "Delivered Snowflake, Databricks, Airflow, and AWS pipelines for Apple, improving platform reliability to 99",
-        "9% uptime across production reporting workflows",
-        "Refined Delta Lake, PySpark, and SQL transformations for Apple, improving data quality checks passed by 30% and reducing reusable dataset build time by 25%",
+        "Delivered Snowflake, Databricks, Airflow, and AWS pipelines for Apple, improving platform reliability to 99.9% uptime across production reporting workflows",
+        "Refined Delta Lake, PySpark, and SQL transformations for Apple, improving data quality checks passed by approximately 30% and reducing reusable dataset build time by approximately 25%",
         "Coordinated Kafka, Spark Streaming, REST API, and CDC integrations for Apple, cutting near real-time ingestion latency to under 5 seconds for cross-system data availability",
-        "Enhanced Git, CI/CD, Terraform, and monitoring practices for Apple, reducing deployment failures by 35% and mean time to detect issues by 40%"
+        "Enhanced Git, CI/CD, Terraform, and monitoring practices for Apple, reducing deployment failures by approximately 35% and mean time to detect issues by approximately 40%"
       ]
     },
     {
       "title": "Associate Data Engineer",
       "company": "Onward Technologies",
-      "period": "August 2019 – October 2021",
-      "location": "",
-      "description": "Orchestrated GCP data pipelines with BigQuery, Dataflow, Pub/Sub, and Cloud Composer, transforming 10M+ events/day into analytics-ready datasets for reporting teams and decision support systems. Modeled warehouse structures in BigQuery with SQL, dbt, and Cloud Storage, cutting query costs by 30% and improving self-service analytics adoption across 8 business teams. Analyzed product and operational metrics with Looker, BigQuery, and Python, delivering reusable dashboards adopted by 50+ stakeholders, replacing manual weekly reporting. Operationalized Spark and Dataproc workflows with Terraform, IAM, and monitoring standards, improving pipeline reliability to 99% success rate across GCP environments.",
+      "period": "August 2019 - October 2021",
+      "location": "Hyderabad, India",
+      "logo": "https://www.google.com/s2/favicons?domain=onwardgroup.com&sz=128",
+      "logoAlt": "Onward Technologies logo",
+      "description": "Orchestrated GCP data pipelines with BigQuery, Dataflow, Pub/Sub, and Cloud Composer, transforming 10M+ events/day into analytics-ready datasets for reporting teams and decision support systems. Modeled warehouse structures in BigQuery with SQL, dbt, and Cloud Storage, cutting query costs by approximately 30% and improving self-service analytics adoption across 8 business teams. Analyzed product and operational metrics with Looker, BigQuery, and Python, delivering reusable dashboards adopted by 50+ stakeholders, replacing manual weekly reporting. Operationalized Spark and Dataproc workflows with Terraform, IAM, and monitoring standards, improving pipeline reliability to approximately 99% success rate across GCP environments.",
       "responsibilities": [
         "Orchestrated GCP data pipelines with BigQuery, Dataflow, Pub/Sub, and Cloud Composer, transforming 10M+ events/day into analytics-ready datasets for reporting teams and decision support systems",
-        "Modeled warehouse structures in BigQuery with SQL, dbt, and Cloud Storage, cutting query costs by 30% and improving self-service analytics adoption across 8 business teams",
+        "Modeled warehouse structures in BigQuery with SQL, dbt, and Cloud Storage, cutting query costs by approximately 30% and improving self-service analytics adoption across 8 business teams",
         "Analyzed product and operational metrics with Looker, BigQuery, and Python, delivering reusable dashboards adopted by 50+ stakeholders, replacing manual weekly reporting",
-        "Operationalized Spark and Dataproc workflows with Terraform, IAM, and monitoring standards, improving pipeline reliability to 99% success rate across GCP environments"
+        "Operationalized Spark and Dataproc workflows with Terraform, IAM, and monitoring standards, improving pipeline reliability to approximately 99% success rate across GCP environments"
       ]
     }
   ]
