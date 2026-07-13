@@ -1,13 +1,13 @@
 {
   "_instructions": "Site-wide configuration and meta tags. Update these values for SEO and branding.",
   "meta": {
-    "title": "Jyothi Sree | Senior Data Engineer",
-    "description": "Jyothi Sree is a Senior Data Engineer with 6+ years of experience building batch and streaming data pipelines across AWS, Azure, GCP, Snowflake, Databricks, Airflow, dbt, and PySpark.",
-    "author": "Jyothi Sree",
-    "keywords": "Jyothi Sree, Senior Data Engineer, AWS Glue, Azure Data Factory, GCP Dataflow, Snowflake, Databricks, Airflow, dbt, PySpark, Data Engineering Portfolio"
+    "title": "Harsha Jyothi Sree | Senior Data Engineer",
+    "description": "Harsha Jyothi Sree is a Senior Data Engineer with 6+ years of experience building batch and streaming data pipelines across AWS, Azure, GCP, Snowflake, Databricks, Airflow, dbt, and PySpark.",
+    "author": "Harsha Jyothi Sree",
+    "keywords": "Harsha Jyothi Sree, Senior Data Engineer, AWS Glue, Azure Data Factory, GCP Dataflow, Snowflake, Databricks, Airflow, dbt, PySpark, Data Engineering Portfolio"
   },
   "branding": {
-    "name": "Jyothi Sree",
+    "name": "Harsha Jyothi Sree",
     "tagline": "Senior Data Engineer"
   },
   "settings": {

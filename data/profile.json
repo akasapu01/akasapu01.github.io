@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "Jyothi Sree",
+    "name": "Harsha Jyothi Sree",
     "title": "Senior Data Engineer",
     "bio": "Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks, with a track record of cutting runtime, improving data quality, and delivering governed analytics-ready datasets for regulated finance and healthcare environments."
   },
@@ -12,7 +12,7 @@
   },
   "siteConfig": {
     "domain": "",
-    "title": "Jyothi Sree - Portfolio",
+    "title": "Harsha Jyothi Sree - Portfolio",
     "description": "Senior Data Engineer with 6+ years building large-scale batch and streaming pipelines across AWS, Azure, GCP, Snowflake, and Databricks."
   }
 }
